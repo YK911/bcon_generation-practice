@@ -65,8 +65,8 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 
-	/* outline: 2px solid red;
-	outline-offset: -2px; */
+	/* outline: 2px solid red; */
+	/* outline-offset: -2px; */
 }
 
 .btn {
@@ -119,7 +119,7 @@ img {
 	background-image: url(../images/staff/staff-bg.png);
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-position: center;
+	background-position: center 0;
 }
 .staff-title {
 	margin-bottom: 25px;
