@@ -64,9 +64,8 @@ img {
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
-
-  /* outline: 2px solid red; */
-  /* outline-offset: -2px; */
+ outline: 2px solid red; 
+outline-offset: -2px;
 }
 
 .btn {
@@ -91,24 +90,46 @@ img {
   background-color: transparent;
 }
 
+
 /**
   |============================
   | Header styles
   |============================
 */
+.header-box {
+  display: flex;
+  align-items: center;
+}
 .logo {
   font-weight: 700;
   font-size: 30px;
   line-height: 28px;
-
+display: flex;
+align-items: center;
+gap: 16px;
   color: #173a56;
+  
 }
-
+.nav {
+  margin-left: auto;
+}
+.nav-list {
+display: flex;
+align-items: center;
+gap: 30px;
+}
 .nav-link {
   font-size: 16px;
   line-height: 1.75;
+  display: block;
+  padding: 26px 0;
 }
-
+.auth-list {
+  display: flex;
+  gap: 24px;
+  margin-left: 24px;
+  margin-right: 23px;
+}
 .switch-btn {
   padding: 0;
   border: none;
