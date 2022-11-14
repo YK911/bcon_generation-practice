@@ -1258,9 +1258,14 @@
         </ul>
       </section>
     </main>
+    <footer>
+      <form>
+        <input type="text" autofocus />
+      </form>
+    </footer>
 
     <!-- Modal window -->
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-btn" type="button" data-modal-close>
           <svg class="modal-btn-icon" width="22" height="22">
@@ -1272,7 +1277,7 @@
           <label class="register-form-field">
             User name
             <span class="register-form-group">
-              <input class="register-form-input" type="text" />
+              <input class="register-form-input" type="text" autofocus />
               <svg class="register-form-icon" width="22" height="22">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
