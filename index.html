@@ -31,44 +31,46 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <!-- Custom styles -->
+    <link rel="stylesheet" href="./css/main.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header section -->
     <header class="header">
-      <div class="container header-box">
+      <div class="container header__container">
         <a
           class="logo animate__animated animate__wobble animate__delay-2s animate__fester animate__repeat-3"
           href=""
           ><img
+            class="logo__img"
             src="./images/header/logo.svg"
             alt="Product logo"
             width="40"
             height="36"
           />Product</a
         >
-        <nav class="nav">
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a href="" class="nav-link">Product</a>
+        <nav class="nav header__nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="" class="nav__link">Product</a>
             </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">Pricing</a>
+            <li class="nav__item">
+              <a href="" class="nav__link">Pricing</a>
             </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">Customers</a>
+            <li class="nav__item">
+              <a href="" class="nav__link">Customers</a>
             </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">Resources</a>
+            <li class="nav__item">
+              <a href="" class="nav__link">Resources</a>
             </li>
           </ul>
         </nav>
-        <ul class="auth-list">
-          <li class="auth-item">
-            <button class="auth-btn btn btn-secondary">Sign In</button>
+        <ul class="auth header__auth">
+          <li class="auth__item">
+            <button class="auth__btn btn btn--secondary">Sign In</button>
           </li>
-          <li class="auth-item">
-            <button class="auth-btn btn">Sign Up</button>
+          <li class="auth__item">
+            <button class="auth__btn btn">Sign Up</button>
           </li>
         </ul>
         <button class="switch-btn">
@@ -79,20 +81,18 @@
     <main>
       <!-- hero -->
       <section class="hero">
-        <div class="container hero-wrapper">
-          <div class="hero-left">
-            <h1 class="hero-title">Work at the speed of&nbsp;thought</h1>
-            <p class="hero-text">
+        <div class="container hero__container">
+          <div class="hero__left">
+            <h1 class="hero__title">Work at the speed of&nbsp;thought</h1>
+            <p class="hero__text">
               Tools, tutorials, design and innovation experts, all in one place! The most intuitive
               way to imagine your next user experience.
             </p>
-            <div class="hero-group">
-              <button class="hero-btn btn btn-accent" type="button" data-modal-open>
-                Get started
-              </button>
-              <a class="hero-link link" href=""
+            <div class="hero__group">
+              <button class="hero__btn btn" type="button" data-modal-open>Get started</button>
+              <a class="hero__link link" href=""
                 ><img
-                  class="hero-icon"
+                  class="hero__icon"
                   src="./images/hero/hero-icon.svg"
                   alt="play-icon"
                   width="20"
@@ -103,7 +103,7 @@
             </div>
           </div>
 
-          <div class="hero-right">
+          <div class="hero__right">
             <svg
               width="610"
               height="555"
@@ -1151,7 +1151,7 @@
         />
       </section>
       <!--Staff section-->
-      <section class="section staff-section">
+      <section class="staff-section">
         <div class="container">
           <h2 class="staff-title">Quick & Easy Process</h2>
           <p class="staff-descr">
@@ -1260,7 +1260,7 @@
     </main>
     <footer>
       <form>
-        <input type="text" autofocus />
+        <input type="text" />
       </form>
     </footer>
 

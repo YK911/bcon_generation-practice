@@ -1,0 +1,18 @@
+// utils styles
+@import "./utils/variables";
+@import "./utils/animations";
+@import "./utils/visually-hidden";
+@import "./utils/mixins";
+
+// base styles
+@import "./base/base";
+@import "./base/reset";
+@import "./base/container";
+
+// components styles
+@import "./components/btn";
+@import "./components/modal";
+@import "./components/header";
+@import "./components/hero";
+@import "./components/stuff";
+@import "./components/features";

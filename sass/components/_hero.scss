@@ -1,0 +1,53 @@
+/**
+  |============================
+  | Hero styles
+  |============================
+*/
+.hero {
+  @include section-indent;
+}
+
+.hero__container {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+
+.hero__left {
+  max-width: 465px;
+}
+
+.hero__title {
+  @include fonts(40px, 60px, 700, 0.03em);
+
+  margin-bottom: 18px;
+
+  animation: left-to-right 1000ms ease-in 200ms both;
+}
+
+.hero__text {
+  font-size: 18px;
+  line-height: calc(28 / 18);
+  margin-bottom: 45px;
+
+  animation: bottom-to-top 1000ms ease-in-out 1200ms both;
+}
+
+.hero__group {
+  display: flex;
+  gap: 30px;
+}
+
+.hero__btn {
+  margin: 0;
+  animation: roll-in-blurred-left 0.65s cubic-bezier(0.23, 1, 0.32, 1) both;
+}
+
+.hero__link {
+  display: inline-flex;
+  gap: 9px;
+  align-items: center;
+  text-decoration: underline;
+  color: var(--accent-txt-cl);
+  font-weight: 600;
+}

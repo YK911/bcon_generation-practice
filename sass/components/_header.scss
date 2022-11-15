@@ -1,0 +1,50 @@
+/**
+  |============================
+  | Header styles
+  |============================
+*/
+.header__container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: #173a56;
+}
+
+.header__nav {
+  margin-left: auto;
+}
+.nav__list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.nav__link {
+  font-size: 16px;
+  line-height: 1.75;
+  display: block;
+  padding: 26px 0;
+}
+
+.auth {
+  display: flex;
+  gap: 24px;
+}
+
+.header__auth {
+  margin-left: 24px;
+  margin-right: 23px;
+}
+
+.switch-btn {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}

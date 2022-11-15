@@ -1,0 +1,17 @@
+@mixin fonts($fs, $lh, $fw: 400, $ls: 0.01em) {
+  font-size: $fs;
+  line-height: calc($lh / $fs);
+  font-weight: $fw;
+  letter-spacing: $ls;
+}
+
+@mixin section-indent($pt: 50px, $pb: $pt) {
+  padding-top: $pt;
+  padding-bottom: $pb;
+}
+
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

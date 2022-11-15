@@ -1,0 +1,36 @@
+/**
+  |============================
+  | Feautures styles
+  |============================
+*/
+.feautures {
+  @include section-indent;
+}
+
+.feautures-title {
+  width: 539px;
+  margin: 0 auto 50px;
+  text-align: center;
+}
+
+.feautures-img {
+  margin-bottom: 18px;
+}
+
+.feautures-subtitle {
+  @include fonts(22px, 33px, 600);
+
+  color: #22343d;
+  margin-bottom: 13px;
+}
+
+.features-text {
+  @include fonts(16px, 26px);
+
+  color: #22343d;
+}
+
+.feautures-list {
+  @include reset-list;
+  margin-bottom: 50px;
+}
